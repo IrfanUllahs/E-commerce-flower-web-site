@@ -13,7 +13,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-    z-index: 100;
+  z-index: 100;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
@@ -178,7 +178,6 @@ a {
   width: 120px;
 }
 
-
 /* section{
     scroll-margin-top: 30px;
 } */
@@ -210,7 +209,7 @@ a {
 }
 .product-section {
   height: 889px;
- 
+
   margin-top: 100px;
   scroll-margin-top: 80px;
 }
@@ -219,9 +218,9 @@ a {
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.prouductBox p{
-    color: #e34373;
-    font-size: 20px;
+.prouductBox p {
+  color: #e34373;
+  font-size: 20px;
 }
 .product-section .container {
   padding: 20px 50px;
@@ -287,16 +286,16 @@ a {
   height: 220px;
   width: 200px;
 }
-.productBox-contents img:hover{
-    transform: scale(1.1);
-    transition: .2s ease-in 2ms;
+.productBox-contents img:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in 2ms;
 }
-.productBox-contents h1{
-    color: rgb(76, 73, 73);
-    margin: 10px 0;
+.productBox-contents h1 {
+  color: rgb(76, 73, 73);
+  margin: 10px 0;
 }
-.product-title{
-    width: 92%;
+.product-title {
+  width: 92%;
 }
 .product-title span:first-child {
   font-size: 45px;
@@ -308,89 +307,207 @@ a {
   font-weight: bold;
   color: rgb(49, 47, 47);
 }
-.price{
-    color: #e34373;
-    font-size: 25px;
-    font-weight: 600    ;
+.price {
+  color: #e34373;
+  font-size: 25px;
+  font-weight: 600;
 }
-.price-section span:first-child{
-    color: #e34373;
-
+.price-section span:first-child {
+  color: #e34373;
 }
-.price-section span:last-child{
-    text-decoration: line-through;
-    color: grey;
+.price-section span:last-child {
+  text-decoration: line-through;
+  color: grey;
 }
-
-
 
 body {
-    overflow-x: hidden;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  .customer-review-section{
-    height: 650px;
-  }
-  .customer-review-section .container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-    gap: 20px;
-    padding: 20px 50px;
-    
-    
-  }
-  .review-title h1 span{
-    word-spacing: 40px;
-  }
-  .review-box{
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    /* align-items: center; */
-  }
-  .review-box i{
-    color: gold;
-  }
-  .review-box p{
-    color: gray;
-  }
-  .image-box{
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    background-color: white;
-    background-image: url('images/4.jpg');
-    background-position: top;
-    background-size: cover;
-  }
-  .reviewBox-contents{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  .review-info{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+.customer-review-section {
+  height: 650px;
+}
+.customer-review-section .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px 50px;
+}
+.review-title h1 span {
+  word-spacing: 40px;
+}
+.review-box {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* align-items: center; */
+}
+.review-box i {
+  color: gold;
+}
+.review-box p {
+  color: gray;
+}
+.image-box2 {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  background-image: url("images/4.jpg");
+  background-position: top;
+  background-size: cover;
+}
+.reviewBox-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.review-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    gap: 10px;
-  }
-  .review-info i{
-    color: rgb(229, 222, 222);
-    font-size: 60px;
-  }
-  .customer-info{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .customer-info p:first-child{
-    font-size: 20px;
-    color: black;
-    font-weight: 600;
-  }
+  gap: 10px;
+}
+.review-info i {
+  color: rgb(229, 222, 222);
+  font-size: 60px;
+}
+.customer-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.customer-info p:first-child {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+.contact-section {
+  height: 800px;
+}
+.contact-us-title {
+  margin-bottom: 30px;
+}
+.contact-us-title span {
+  font-size: 40px;
+  font-weight: bold;
+}
+.contact-section .container {
+  background-color: white;
+  height: 400px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 50px;
+}
+.left-contact-section {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 90%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+}
+.left-contact-section form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.left-contact-section form input,
+textarea {
+  border-radius: 5px;
+  text-align: center;
+  width: 90%;
+  margin: 5px;
+  height: 40px;
+  border: 1px solid grey;
+}
+.left-contact-section textarea {
+  height: 120px;
+}
+.left-contact-section .btn {
+  width: 35%;
+}
+.right-contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 90%;
+  width: 40%;
+}
+.contact-section hr{
+  width: 80%;
+  margin: auto;
+}
+.right-contact-section img {
+  height: 100%;
+}
+.linkscontainer {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px 50px;
+}
+.linksbox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  height: 80%;
+  width: 18%;
+}
+.linksbox p {
+  color: grey;
+  font-size: 18px;
+  gap: 20px;
+
+  position: relative;
+}
+.linksbox p:hover {
+  left: 30px;
+}
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container{
+  padding: 10px 0;
+  text-align: center;
+  width: 50%;
+}
+footer .container span{
+  font-size: 20px;
+}
+#creater-name{
+  color: #e34373;
+}
+footer .container span:last-child{
+  border-left: 1px solid black;
+  padding-left : 5px;
+}
+/* .msg-button{
+  background-color: rgb(138, 116, 87);
+  color: white;
+  font-size: 25px;
+  width: 20%;
+  position: fixed;
+  z-index: 90;
+  top: 60px;
+  left: 0;
+  bottom: 5px;
+  right: 0px;
+  bottom: 5px;
+} */
